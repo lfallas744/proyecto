@@ -11,13 +11,13 @@ float ProductoPerecedero::getPrecio() {
 }
 
 string ProductoPerecedero::getFecha() {
-
+	return " ";
 }
 void ProductoPerecedero::setFecha(string) {
 
 }
 float ProductoPerecedero::calcularDescuento() {
-
+	return 0;
 }
 string ProductoPerecedero::toString() {
 
