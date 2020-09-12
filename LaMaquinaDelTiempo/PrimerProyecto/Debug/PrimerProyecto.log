@@ -1,0 +1,3 @@
+﻿  ProductoPerecedero.cpp
+ProductoPerecedero.obj : error LNK2001: símbolo externo "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ProductoPerecedero::toString(void)" (?toString@ProductoPerecedero@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) sin resolver
+D:\anton\Documents\Programación II\Segundo Ciclo\Proyectos\ClaseProducto\Debug\PrimerProyecto.exe : fatal error LNK1120: 1 externos sin resolver
