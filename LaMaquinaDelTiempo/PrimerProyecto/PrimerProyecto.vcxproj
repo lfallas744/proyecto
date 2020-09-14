@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MonderoElectronico.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="ProductoNoPerecedero.cpp" />
     <ClCompile Include="ProductoPerecedero.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MonderoElectronico.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="ProductoNoPerecedero.h" />
     <ClInclude Include="ProductoPerecedero.h" />

@@ -1,13 +1,13 @@
 #include "Producto.h"
 #include "ProductoNoPerecedero.h"
-
+#include "MonderoElectronico.h"
 using namespace std;
 
 int main() {
 
-	ProductoNoPerecedero produ1("camiseta", "CM12232", 12500, 2, 5);
+	MonderoElectronico monedero;
 
-	cout << produ1.toString();
+	cout << monedero.desgloceVuelto(-120000);
 
 
 	return 0;
