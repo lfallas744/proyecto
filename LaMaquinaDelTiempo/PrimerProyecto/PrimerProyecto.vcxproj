@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Maquina.cpp" />
     <ClCompile Include="MonderoElectronico.cpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="ProductoPerecedero.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Fecha.h" />
     <ClInclude Include="IMaquinaAdministradora.h" />
     <ClInclude Include="IMaquinaVendedora.h" />
     <ClInclude Include="Maquina.h" />
