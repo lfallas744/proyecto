@@ -140,12 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Maquina.cpp" />
     <ClCompile Include="MonderoElectronico.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="ProductoNoPerecedero.cpp" />
     <ClCompile Include="ProductoPerecedero.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IMaquinaAdministradora.h" />
+    <ClInclude Include="IMaquinaVendedora.h" />
+    <ClInclude Include="Maquina.h" />
     <ClInclude Include="MonderoElectronico.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="ProductoNoPerecedero.h" />

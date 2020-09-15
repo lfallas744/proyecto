@@ -7,7 +7,7 @@ int main() {
 
 	MonderoElectronico monedero;
 
-	cout << monedero.desgloceVuelto(-120000);
+	cout << monedero.desgloceVuelto(1000);
 
 
 	return 0;
