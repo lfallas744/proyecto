@@ -1,9 +1,9 @@
 #include"Maquina.h"
 
-Maquina::Maquina(int id , string nom /*,MonederoElectronico mone=nullptr*/) {
+Maquina::Maquina(int id , string nom ,MonderoElectronico* mone) {
 	identificador = id;
 	nombre = nom;
-	//monedero = mone;
+	monedero = mone;
 
 	this->capacidadActual = 20;
 	this->cantidad = 0;
@@ -64,13 +64,18 @@ Producto* Maquina::consultar(string id) {
 	return nullptr;
 }
 void Maquina::ingresarDinero() {
-
+	int dinero = 0;
+	cout << "Ingrese la cantidad de dinero " << endl;
+	cin >> dinero;
+	monedero->setDinero(dinero);
 }
 void Maquina::retirarDinero(int cantidad) {
-
+	int dinero = monedero->getDinero();
+	monedero->setDinero(dinero - cantidad);
 }
 string Maquina::realizarCompra(string id, int cantidad, int montoPago) {
-	return "";
+	this->disminuirProvisiones(id, cantidad);
+	return monedero->desgloceVuelto(montoPago);
 }
 Maquina::~Maquina() {
 

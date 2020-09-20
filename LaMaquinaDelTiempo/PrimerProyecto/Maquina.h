@@ -1,6 +1,7 @@
 #pragma once
 #include"IMaquinaAdministradora.h"
 #include"IMaquinaVendedora.h"
+#include"MonderoElectronico.h"
 
 class Maquina :public IMaquinaAdministradora, public IMaquinaVendedora {
 private:
@@ -8,9 +9,9 @@ private:
 	string nombre;
 	Producto** coleccion;
 	int cantidad, capacidadActual;
-	//MonederoElectronico* monedero;
+	MonderoElectronico* monedero;
 public:
-	Maquina(int id = 0, string nom = ""/*,MonederoElectronico mone=nullptr*/);
+	Maquina(int id = 0, string nom = "",MonderoElectronico* mone=nullptr);
 	void asegurarCapacidad();
 	virtual ~Maquina();
 
