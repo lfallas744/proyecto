@@ -40,7 +40,7 @@ char MenuCobro::MostrarOpciones(){
 
 void MenuCobro::MostrarProductos(){
 
-	this->maquina->toString();
+	cout<<this->maquina->toString()<<endl;
 
 }
 
