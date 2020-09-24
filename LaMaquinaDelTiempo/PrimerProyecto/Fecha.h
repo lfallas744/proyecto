@@ -1,4 +1,5 @@
 #pragma once
+#pragma warning (disable : 4996)
 #include <iostream>
 #include <sstream>
 #include <ctime>
@@ -8,8 +9,6 @@ using namespace std;
 static time_t ahora = time(NULL); //Fecha y hora actual basado en el sistema;
 
 
-//Para que esto funcione.. Hay que ir a Depurar -> Propiedades de la depuracion del proyecto ->C/C++ -> Procesador
-//y en la primera linea donde sale Definiciones de Procesador agregar lo siguiente: ;_CRT_SECURE_NO_WARNINGS
 
 static struct tm * _fecha = localtime(&ahora); //objeto de estructura tiempo con fecha y hora local.
 

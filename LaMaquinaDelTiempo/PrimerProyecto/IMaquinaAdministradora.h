@@ -1,6 +1,8 @@
 #pragma once
 #include<iostream>
 #include"Producto.h"
+#include <sstream>
+
 using namespace std;
 
 class IMaquinaAdministradora {

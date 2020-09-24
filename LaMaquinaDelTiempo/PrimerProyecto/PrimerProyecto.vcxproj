@@ -140,22 +140,31 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="Iterador.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Maquina.cpp" />
+    <ClCompile Include="MenuAdministrador.cpp" />
+    <ClCompile Include="MenuPrincipal.cpp" />
     <ClCompile Include="MonderoElectronico.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="ProductoNoPerecedero.cpp" />
     <ClCompile Include="ProductoPerecedero.cpp" />
+    <ClCompile Include="Vista.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bootstrapper.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="IMaquinaAdministradora.h" />
     <ClInclude Include="IMaquinaVendedora.h" />
+    <ClInclude Include="Iterador.h" />
     <ClInclude Include="Maquina.h" />
+    <ClInclude Include="MenuAdministrador.h" />
+    <ClInclude Include="MenuPrincipal.h" />
     <ClInclude Include="MonderoElectronico.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="ProductoNoPerecedero.h" />
     <ClInclude Include="ProductoPerecedero.h" />
+    <ClInclude Include="Vista.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

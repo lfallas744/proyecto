@@ -2,6 +2,7 @@
 #include"IMaquinaAdministradora.h"
 #include"IMaquinaVendedora.h"
 #include"MonderoElectronico.h"
+#include "Iterador.h"
 
 class Maquina :public IMaquinaAdministradora, public IMaquinaVendedora {
 private:
@@ -30,5 +31,6 @@ public:
 
 	
 	string realizarCompra(string id, int cantidad, int montoPago) override;
-
+	Iterador* obtenerIterador();
+	
 };
